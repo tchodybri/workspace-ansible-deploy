@@ -1,0 +1,6 @@
+--- 
+name: run terraform scripts
+hosts: localhost 
+connection: local
+tasks:
+command: cd /Users/tchodybrimotto/Dylan-Project/infra-us-west-2/terraform & terraform plan

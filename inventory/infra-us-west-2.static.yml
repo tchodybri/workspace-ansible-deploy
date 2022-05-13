@@ -1,0 +1,9 @@
+infra-us-west-2:
+  vars:
+   ansible_python_interpreter: /usr/bin/python3
+  children:
+   us-west-2:
+    children:  
+tdb-vpc:
+      hosts: 
+jenkins-prod:
